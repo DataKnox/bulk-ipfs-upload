@@ -1,7 +1,7 @@
 import { NFTStorage, File } from 'nft.storage'
 import { getFilesFromPath } from 'files-from-path'
 
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDA3YTIwMjk2OTE2OTU5MTljN2E5ZjlDNjUwNzgxMjE4RGZlNGM0RjciLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY0ODgzMjE5NzYzOSwibmFtZSI6InNhbXBsZSJ9.-sPn5PSxJWFgk1-95i0k8SCIN_yJKVVC3SIIfE2nfDU'
+const token = 'YOUR KEY HERE'
 
 async function main() {
   const path = process.argv.slice(2)
